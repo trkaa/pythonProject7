@@ -11,7 +11,7 @@ def input_handler(inp: int):
             view.db_success(model.db_list)
         case 4:
             model.db_list.append(view.create_contact())
-        case 7:
+        case 8:
             view.exit_program()
         case 3:
             model.save_file(model.db_list)
@@ -19,6 +19,8 @@ def input_handler(inp: int):
             view.change_contact(model.db_list)
         case 6:
             view.delet_id(model.db_list)
+        case 7:
+            view.search_id(model.db_list)
 
 def start():
     while True:

@@ -36,9 +36,11 @@ def save_file(n):
 
 
 
-    # with open('database.txt', 'w', encoding='UTF-8') as file:
-    #     for i in range(len(db_list)):
-    #         file.write(db_list[i].values)
+
+
+
+
+
 
 
 
